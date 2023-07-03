@@ -1,4 +1,4 @@
-# CLone repository
+# Clone repository
 # npm i
 # npm run start:dev
 
