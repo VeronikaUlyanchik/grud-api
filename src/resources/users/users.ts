@@ -2,7 +2,6 @@ import { IncomingMessage, ServerResponse } from "http";
 import usersCollection from "./users.service"
 import { validateId, validateUser } from "./users.utils";
 import { getBody } from "../../utils/getBody";
-import { UserType } from "../../db/users";
 import * as uuid from 'uuid';
 
 export const userApi = {

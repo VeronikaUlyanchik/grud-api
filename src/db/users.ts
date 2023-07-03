@@ -7,7 +7,6 @@ type UserType = {
     hobbies: string[],
 }
 
-
 class USERS_COLLECTION {
     public get = () => {
         return usersMock;

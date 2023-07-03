@@ -26,7 +26,6 @@ export const initServer = () => {
         }
     }
 
-
         if(req.url.includes(`${base}/`)) {
             const query = req.url.split(`${base}/`)[1];
             switch (req.method) {
