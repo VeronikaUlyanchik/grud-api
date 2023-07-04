@@ -1,0 +1,36 @@
+{
+    "name": "crud-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start:dev": "nodemon ./index.ts",
+        "start:prod": "npm run build && node ./dist/bundle.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VeronikaUlyanchik/grud-api.git"
+    },
+    "author": "VeronikaUlyanchik",
+    "homepage": "https://github.com/VeronikaUlyanchik/grud-api#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "nodemon": "^2.0.20",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.2.5",
+        "@types/node": "^18.11.18",
+        "@types/supertest": "^2.0.12",
+        "@types/uuid": "^9.0.0",
+        "jest": "^29.3.1",
+        "prettier": "^2.8.2",
+        "supertest": "^6.3.3",
+        "ts-jest": "^29.0.5",
+        "ts-loader": "^9.4.2",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
+    }
+}
